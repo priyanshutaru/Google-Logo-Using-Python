@@ -1,0 +1,15 @@
+import turtle
+import time
+
+# set the background color for the page
+bg = turtle.Screen()
+bg.bgcolor("black")
+
+turtle.speed(1)
+turtle.color("Red")
+turtle.pendown()
+turtle.write(
+    "PriyanshuTaru", #write your name here
+    move=False,
+    font=("Italic", 48, "bold"))
+turtle.done()

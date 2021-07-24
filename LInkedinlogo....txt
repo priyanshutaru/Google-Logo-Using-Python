@@ -1,0 +1,25 @@
+from turtle import*
+
+bgcolor('black')
+pencolor('blue')
+width(23)
+penup()
+goto(160,-100)
+pendown()
+
+left(90)
+fillcolor('blue')
+begin_fill()
+for i in range(4):
+    forward(250)
+    circle(34,90)
+end_fill()
+penup()
+goto(10,-80)
+color('white')
+pendown()
+write('in',move=False, align='center', font=('Myriad Pro',150, 'bold'))
+penup()
+goto(0,-210)
+write('Priyanshu Kumar',move=False, align='center', font=('Myriad Pro',40, 'bold'))
+done()
